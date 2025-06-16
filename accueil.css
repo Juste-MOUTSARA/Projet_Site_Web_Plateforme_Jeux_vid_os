@@ -1,0 +1,362 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  z-index: 2;
+}
+
+header nav .logo {
+  margin-top: 3%;
+}
+
+.logo {
+  margin-left: 3%;
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 1%;
+  margin-left: 24%;
+}
+
+nav a {
+  margin-left: 70px;
+}
+
+nav a:hover {
+  /* text-decoration: underline 4pxgb(245, 111, 9) r; */
+  border-bottom: 3px solid rgb(245, 111, 9);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 3px;
+}
+
+.contact {
+  border: 2px solid rgb(245, 111, 9);
+  background-color: rgb(245, 111, 9);
+  height: 20px;
+  margin-right: 3%;
+  padding: 10px 40px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+
+/* la 1ere section */
+
+.section1 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 9%;
+  margin-top: 3%;
+}
+
+.icon_section1 {
+  position: relative;
+  margin-right: 15%;
+  right: 0;
+  display: flex;
+}
+
+.cry{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.unity{
+  position: absolute;
+  top: 50%;
+  left: 14%;
+}
+
+.magnette{
+  width: 70%;
+  margin-left: 25%;
+
+}
+
+.parag_get em{  
+  color:rgb(245, 111, 9) ;
+  font-style: normal;
+}
+
+
+.parag_get h1{  
+   font-weight: bold;
+   font-size: 2.4em;
+}
+.parag1_section1{
+  padding-bottom: 8%;
+}
+
+.get{
+  border: 2px solid rgb(245, 111, 9);
+  background-color: rgb(245, 111, 9);
+  height: 20px;
+  width: 150px;
+  /* margin-top: 2%; */
+  padding: 10px 40px;
+  border-radius: 50px 50px 50px 50px;
+  letter-spacing: 0.1em;
+}
+
+/* la 2ere section */
+
+.section2 {
+  margin-left: 9%;
+}
+
+.parag_all {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15%;
+  padding-top: 9%;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+}
+
+.all{
+  border: 2px solid rgb(75, 68, 63);
+  background-color: rgb(75, 68, 63);
+  height: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+
+.images_section2 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  margin-right: 15%;
+  margin-top: 2%;
+}
+
+.follo {
+  margin-left: 40px;
+}
+
+.parag2_section2 {
+  width: 610px;
+  margin: auto;
+  padding-top: 6%;
+}
+
+/* la 3e section */
+
+.section3 {
+  position: relative;
+  margin-left: 9%;
+  margin-top: 4%;
+  margin-right: 15%;
+  padding-bottom: 6%;
+  /* background: linear-gradient(
+    90deg,
+    rgb(39, 16, 16),
+    rgb(151, 55, 55),
+    rgb(28, 6, 6)
+  );
+  padding-bottom: 100px; */
+}
+
+.parag3_section3 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.parag1_section3{
+  position: relative;
+  text-align: left;
+  padding-top: 3%;
+}
+
+.point img{
+  position: absolute;
+  height: 50px;
+  width: 130px;
+  top: 140px;
+  right: 50px;
+}
+
+.img_section3 {
+  position: relative;
+  width: 970px;
+}
+
+/* 4e section */
+
+.section4 {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-image: url(Ressources_images_pour_maquette1/Rectangle\ 20.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+.parag4_section4 {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 4%;
+}
+
+.images_section4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  gap: 6px;
+  width: 900px;
+}
+
+.section4 img {
+  margin-left: 40px;
+}
+
+.deux {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  margin-top: 3%;
+  gap: 150px;
+  margin-left: 440px;
+  text-align: center;
+}
+
+.deux .img1{
+   
+  margin-left: -0px;
+}
+
+/* 5e section */
+
+.section5 {
+  position: relative;
+  margin-left: 9%;
+  margin-top: 4%;
+  margin-right: 3%;
+}
+
+.all2{
+  border: 2px solid rgb(75, 68, 63);
+  background-color: rgb(75, 68, 63);
+  height: 20px;
+  width: 100px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+  margin: auto;
+  text-transform: uppercase;
+
+}
+
+.parag5_section5 {
+  text-align: center;
+}
+
+.images_section5 {
+  display: grid;
+  grid-template-columns: 230px 290px 370px;
+  margin-top: 4%;
+  /* grid-template-rows:  200px 150px; */
+  gap: 10px;
+}
+
+/* 6e section */
+
+.section6 {
+  margin-left: 9%;
+  margin-top: 6%;
+  padding-bottom: 9%;
+}
+
+.parag2_section6 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;background-color: rgba(29, 17, 17, 0.816);
+  margin-right: 9%;
+  padding-left: 56px;
+  padding: 2%;
+ 
+}
+
+input{
+  position: relative;
+  height: 40px;
+  width: 310px;
+  border: 2px solid rgb(224, 208, 208);
+  border-radius: 3px;
+  margin-right: 20px;
+
+}
+.enter{
+  margin-top: 3%;
+}
+
+button{
+  position: absolute;
+  background-color: rgb(245, 111, 9);
+  height: 40px;
+  width: 110px;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid rgb(245, 111, 9);
+  top: 54px;
+  /* bottom: 0; */
+  right: 45px;
+}
+
+
+/* pied de page */
+
+footer{
+  
+  background-color: rgba(16, 16, 32, 0.724);
+  font-size: 0.8em;
+  
+}
+
+
+.contenaire{
+  margin-left: 6%;
+  margin-right: 6%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.about_footer p{
+  line-height: 0.7em;
+}
+
+.liens_footer img{
+  height: 50px;
+}
+
+.liens_footer a{
+  margin-left: -10px;
+}
+
+.copy{
+  /* width: 250px;
+  margin: auto; */
+  text-align: center;
+  padding: 2%;
+  border-top: 2px solid rgb(71, 66, 66);
+}

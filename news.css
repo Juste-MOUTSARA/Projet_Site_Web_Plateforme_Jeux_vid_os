@@ -1,0 +1,323 @@
+ body {
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+
+header nav .logo {
+  margin-top: 3%;
+}
+
+.logo {
+  margin-left: 3%;
+  font-size: 1.5em;
+}
+
+nav {
+  margin-top: 1%;
+  margin-left: 24%;
+}
+
+nav a {
+  margin-left: 70px;
+}
+
+nav a:hover {
+  /* text-decoration: underline 4pxgb(245, 111, 9) r; */
+  border-bottom: 3px solid rgb(245, 111, 9);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 3px;
+}
+
+.contact {
+  border: 2px solid rgb(245, 111, 9);
+  background-color: rgb(245, 111, 9);
+  height: 20px;
+  margin-right: 3%;
+  padding: 10px 40px;
+  border-radius: 10px;
+  letter-spacing: 0.1em;
+}
+
+           /* 1e sction */
+
+       
+.section1 p em{
+  font-style: normal;
+  color:rgb(245, 111, 9);
+}
+
+
+.section1 {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 9%;
+  margin-right: 6%;
+  text-align: center;
+  padding-bottom: 10%;
+} 
+
+form input{
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 30px;
+  width: 310px;
+  border: 2px solid rgb(48, 40, 40);
+  border-radius: 3px;
+  background-color: rgb(41, 36, 36);
+  margin-right: 20px;
+}
+
+form .btn1{
+  position: absolute;
+  z-index: 9;
+  bottom:134px;
+
+  left: 350px;
+  top: 135px;
+  background-color: rgb(41, 36, 36);
+  border: none;
+}
+ 
+/* cas de l'icone du bouton */
+/* form img{
+  position: absolute;
+  z-index: 9;
+  bottom:134px;
+  left: 390px;
+  top: 130px;
+  background-color: rgb(150, 40, 40);
+  border: none;
+} */
+
+           /* 2e section */
+
+.section2{
+  margin-left: 7%;
+  margin-right: 2%;
+}
+
+.contenaire{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 40px; */
+}
+
+.colonne1{
+  width: 500px;
+  height: 350px;
+  
+}
+
+.colonne12{
+  padding-top: 9%;
+  width: 500px;
+  height: 350px;
+  
+}
+
+.parag{
+  padding-bottom: 9%;
+
+}
+
+.trait{
+  /* width: 450px;
+  height: 1px; */
+  border: 1px solid white;
+  padding-bottom: 2%;
+}
+
+
+.commentaire{
+  display: flex;
+  gap: 10px;
+  margin-top: 2%;
+}
+
+.commentaire2{
+  display: flex;
+  gap: 10px;
+  margin-top: 2%;
+}
+
+.john{
+  width:100px ;
+  border: 2px solid  blue;
+  padding: 1%;
+  background-color: blue;
+  border-radius: 3%;
+}
+
+
+                   /* 2e colonne */
+
+
+.colonne2{
+  width: 410px;
+  /* border: 2px solid; */
+  
+   
+}
+
+.commentaire_colonne2{
+  display: flex;
+  padding-bottom: 3%;
+}
+
+.commentaire_colonne2 img{
+  height: 175px;
+}
+
+.commentaire_colonne2 h3,
+.commentaire_colonne2 .commentaire22
+{
+  margin-left: 5%;
+  line-height: 0.9em;
+}
+
+.commentaire22{
+  display: flex;
+  gap: 10px;
+  padding-top: 9%;
+  margin-left: 0%;
+}
+
+.john2{
+  text-align: center;
+  width:100px ;
+  height: 30px;
+  border: 2px solid  blue;
+  padding: 1%;
+  background-color: blue;
+  border-radius: 3%;
+}
+
+.john3{
+  text-align: center;
+  width:100px ;
+  height: 30px;
+  border: 2px solid rgb(228, 128, 21);
+  padding: 1%;
+  background-color: rgb(228, 128, 21);
+  border-radius: 3%;
+}
+
+.john4{
+  text-align: center;
+  width:100px ;
+  height: 30px;
+  border: 2px solid  rgb(51, 227, 75);
+  padding: 1%;
+  background-color: rgb(51, 227, 75);
+  border-radius: 3%;
+}
+
+
+.john5{
+  text-align: center;
+  width:100px ;
+  height: 30px;
+  border: 2px solid  rgb(73, 20, 130);
+  padding: 1%;
+  background-color: rgb(73, 20, 130);
+  border-radius: 3%;
+}
+
+
+/* 3e section */
+
+.section5 {
+  margin-left: 9%;
+  margin-top: 6%;
+  padding-bottom: 9%;
+}
+
+.parag2_section5 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(29, 17, 17, 0.816);
+  margin-right: 9%;
+  padding-left: 56px;
+  padding: 2%;
+ 
+}
+
+.center_input{
+  position: relative;
+  height: 40px;
+  width: 310px;
+  border: 2px solid rgb(224, 208, 208);
+  background-color: white;
+  border-radius: 3px;
+  margin-right: 20px;
+  
+
+}
+.enter{
+  margin-top: 3%;
+}
+
+.btn2{
+  position: absolute;
+  background-color: rgb(245, 111, 9);
+  height: 30px;
+  width: 100px;
+  color: white;
+  border-radius: 3px;
+  border: 2px solid rgb(245, 111, 9);
+  top: 57.5px;
+  /* bottom: 0; */
+  right: 45px;
+}
+
+
+/* pied de page */
+
+footer{
+  
+  background-color: rgba(16, 16, 32, 0.724);
+  font-size: 0.8em;
+  
+}
+
+
+.contenaire{
+  margin-left: 6%;
+  margin-right: 6%;
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.about_footer p{
+  line-height: 0.7em;
+}
+
+.liens_footer img{
+  height: 50px;
+}
+
+.liens_footer a{
+  margin-left: -10px;
+}
+
+.copy{
+  /* width: 250px;
+  margin: auto; */
+  text-align: center;
+  padding: 2%;
+  border-top: 2px solid rgb(71, 66, 66);
+}
